@@ -87,9 +87,9 @@ const BusinessDetails = () => {
                     <Field id="bsnsEIN" name="bsnsEIN" />
                     <ErrorMessage name="bsnsEIN" render={msg => <div style={{ color: "red" }} >{msg}</div>} />
 
-                    <label htmlFor="addZipcode">Zip code</label>
-                    <Field id="addZipcode" name="addZipcode" />
-                    <ErrorMessage name="addZipcode" render={msg => <div style={{ color: "red" }} >{msg}</div>} />
+                    <label htmlFor="bdAddZipcode">Zip code</label>
+                    <Field id="bdAddZipcode" name="bdAddZipcode" />
+                    <ErrorMessage name="bdAddZipcode" render={msg => <div style={{ color: "red" }} >{msg}</div>} />
 
                     <label htmlFor="bsnsWebsite">Business Website</label>
                     <Field id="bsnsWebsite" name="bsnsWebsite" />

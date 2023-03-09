@@ -21,7 +21,7 @@ const BusinessOwnInfo = () => {
         ownAddZipcode: yup.string().matches(usZipRegExp, "Zip Code is not valid").required("Required"),
         birthDt: yup.date().required("Required"),
         ssnNo: yup.number().required("Required"),
-        purchasePwrBar: yup.string().required("Required")
+        purchasePwrBar: yup.string()
     });
 
     const initialValues = {
