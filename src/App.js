@@ -1,6 +1,7 @@
 import './App.css';
 import axios from "axios";
 import { useEffect } from 'react';
+import Router from './router';
 
 function App() {
   
@@ -15,9 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-          Gecko Board
-      </header>
+        <Router />
     </div>
   );
 }
