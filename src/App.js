@@ -2,6 +2,7 @@ import './App.css';
 import axios from "axios";
 import { useEffect } from 'react';
 import Router from './router';
+import Header from "./components/header";
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+        <Header />
         <Router />
     </div>
   );

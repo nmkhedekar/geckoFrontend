@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+h1, h2, h3, h4,h5, p{
+    font-family: 'Poppins', sans-serif !important;
+}
+button{
+    font-family: 'Poppins', sans-serif !important;
+    border: none;
+}
+
+header{
+    background-color: #3C5D9C;
+}
+.banner-text{
+    text-align: left;
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+} 
+.sign-register button{
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+}
+
+.reg-btn{
+    background: #FFFFFF;
+    border: 2px solid #fff !important;
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all .3s ease-in;
+}
+.reg-btn:hover{
+  background: transparent;
+  border: 2px solid #fff !important;
+  color: white;
+}
+.sign-btn{
+    background: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all .3s ease-in;
+}
+.sign-btn:hover{
+    color: #fff;
+}
+.banner{
+    margin-top: 100px;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 55px;
+    color: #3C5D9C;
+}
+.banner p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+}
+.start-application{
+    width: 80%;
+    margin: auto;
+}
+ .start-application input{
+    margin-bottom: 15px;
+    border: none;
+    padding: 20px 15px;
+    width: 100%;
+    background: rgba(75, 118, 202, 0.1);
+    font-family: 'Poppins';
+    font-style: normal;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.start-application input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name .name-1,.name .name-2 {
+    width: 49%;
+}
+.error-msg{
+    color: red;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.start-application  button{
+    margin-top: 50px;
+    width: 100%;
+    background: #3C5D9C;
+    box-shadow: 0px 4px 60px 15px rgba(75, 118, 202, 0.2);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    transition: color .4s ease-in;
+
+}
+.start-application  button:hover{
+    color: #fff;
+}
+.back-icon{
+    margin-bottom: 20px;
+
+}
+.left-2{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+.left-2 .logo{
+    margin-bottom: 80px;
+}
+.content{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+
+}
+.content img{
+    margin-bottom: 80px;
+}
+.content h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 15px;
+}
+.content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.pag-dots{
+    text-align: center;
+}
+.left{
+    position: fixed;
+    width: 500px;
+    bottom: 20px;
+}
+.right{
+    padding: 30px 0px 0px 70px;
+}
+.right h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.right p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 133%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+}
+.business-address input{
+        margin-bottom: 25px;
+        border: none;
+        padding: 20px 15px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.15);
+        font-family: 'Poppins';
+        font-style: normal;
+        border-radius: 12px;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.9);
+}
+.business-address input:focus-visible{
+    outline: none;
+}
+.business-address input::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.two-item{
+    display: flex;
+    justify-content: space-between;
+}
+.two-item input{
+    width: 48%;
+}
+.next-btn{
+    box-shadow: 0px 4px 50px 20px rgba(255, 255, 255, 0.17);
+    border-radius: 12px;
+    padding: 18px 40px;
+    border-radius: 12px;
+    transition: color .4s ease-in;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 151%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.8);
+    transition: background .5s ease-in;
+}
+.next-btn:hover{
+    background: #FFFFFF;
+}
