@@ -88,7 +88,7 @@ const BusinessOwnInfo = () => {
                                 <Formik
                                     onSubmit={(values) => {
                                         console.log("values", values);
-                                        navigate("/", {
+                                        navigate("/connect-your-bank", {
                                             state: {
                                                 fName: location.state.fName,
                                                 lName: location.state.lName,
